@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <!-- Required elements-->
+        <id>Naxam.Effects</id>
+       <version>1.0</version>
+        <description>Xamarin Forms - Effects</description>
+        <authors>Vu Duc Tuyen</authors>
+        <owners>NAXAM CO.,LTD</owners>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+
+        <!-- Optional elements -->
+        <title>Naxam - Xamarin.Forms Effects</title>
+        <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>https://github.com/NAXAM/xam-i18n</projectUrl>
+        <copyright>(c) 2017 NAXAM</copyright>
+        <tags>Xamarin.Forms, Xamarin.Android, Xamarin.iOS, Effects</tags>
+        <dependencies>
+            <dependency id="Xamarin.Forms" version="2.3.3.180" />
+        </dependencies>
+    </metadata>
+    <!-- Optional 'files' node -->
+    <files>
+        <!--PCL-->
+        <file src="Naxam.Effects/bin/Release/Naxam.Effects.dll" target="lib/portable-net45+wp80+win8+wpa81/Naxam.Effects.dll" />
+        <file src="Naxam.Effects/bin/Release/Naxam.Effects.xml" target="lib/portable-net45+wp80+win8+wpa81/Naxam.Effects.xml" />
+
+        <!--Android-->
+        <file src="Naxam.Effects/bin/Release/Naxam.Effects.dll" target="lib/MonoAndroid10/Naxam.Effects.dll" />
+        <file src="Naxam.Effects/bin/Release/Naxam.Effects.xml" target="lib/MonoAndroid10/Naxam.Effects.xml" />
+        <file src="Naxam.Effects.Platform.Droid/bin/Release/Naxam.Effects.Platform.Droid.dll" target="lib/MonoAndroid10/Naxam.Effects.Platform.Droid.dll" />
+        <file src="Naxam.Effects.Platform.Droid/bin/Release/Naxam.Effects.Platform.Droid.xml" target="lib/MonoAndroid10/Naxam.Effects.Platform.Droid.xml" />
+
+        <!--iOS-->
+        <file src="Naxam.Effects/bin/Release/Naxam.Effects.dll" target="lib/Xamarin.iOS10/Naxam.Effects.dll" />
+        <file src="Naxam.Effects/bin/Release/Naxam.Effects.xml" target="lib/Xamarin.iOS10/Naxam.Effects.xml" />
+        <file src="Naxam.Effects.Platform.iOS/bin/Release/Naxam.Effects.Platform.iOS.dll" target="lib/Xamarin.iOS10/Naxam.Effects.Platform.iOS.dll" />
+        <file src="Naxam.Effects.Platform.iOS/bin/Release/Naxam.Effects.Platform.iOS.xml" target="lib/Xamarin.iOS10/Naxam.Effects.Platform.iOS.xml" />
+    </files>
+</package>

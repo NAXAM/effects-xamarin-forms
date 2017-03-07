@@ -1,0 +1,4 @@
+*.nupkg
+obj
+bin
+packages

@@ -1,0 +1,10 @@
+﻿<Properties StartupConfiguration="{4ED19CD5-3C3A-4D50-8E90-5AA3505D64E1}|Default">
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.effects.Naxam.Effects.Platform.Droid PreferredExecutionTarget="Android.SelectDevice" />
+</Properties>
