@@ -4,7 +4,7 @@ using System.Linq;
 using Xamarin.Forms;
 using Xamarin.Forms.Internals;
 
-namespace Naxam.Effects.PlatformConfiguration
+namespace Naxam.Effects
 {
 	public static class ListViewEffect
 	{

@@ -121,7 +121,7 @@ namespace Naxam.Effects.Platform.iOS
 
 			var firstIndexPath = tableView.IndexPathsForVisibleRows[0];
 
-			PlatformConfiguration.ListViewEffect.SetFirstVisibleItemIndex(Element, firstIndexPath.Row);
+			ListViewEffect.SetFirstVisibleItemIndex(Element, firstIndexPath.Row);
 		}
 	}
 }

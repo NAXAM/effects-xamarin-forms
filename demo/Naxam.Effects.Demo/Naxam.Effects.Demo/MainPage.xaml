@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Naxam.Effects.Demo"
+             xmlns:effects="clr-namespace:Naxam.Effects;assembly=Naxam.Effects"
+             x:Class="Naxam.Effects.Demo.MainPage">
+    <ListView 
+        x:Name="lstItems"
+        effects:ListViewEffect.AllowsSelection="false"
+        >
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <TextCell Text="{Binding .}"/>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>
