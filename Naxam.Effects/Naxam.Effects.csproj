@@ -29,7 +29,7 @@
     <DocumentationFile>bin\Release\Naxam.Effects.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup>
-    <SignAssembly>true</SignAssembly>
+    <SignAssembly>false</SignAssembly>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="ListViewEffectNoSelection.cs" />
