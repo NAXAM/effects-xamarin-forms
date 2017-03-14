@@ -23,7 +23,7 @@ namespace Naxam.Effects
 		}
 		static void OnHasBorderChanged(BindableObject bindable, object oldValue, object newValue)
 		{
-			var element = (Entry)bindable;
+			var element = (View)bindable;
 
 			var value = newValue as bool? ?? true;
 
