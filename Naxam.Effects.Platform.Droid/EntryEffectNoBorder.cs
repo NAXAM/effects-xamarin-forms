@@ -3,6 +3,7 @@ using System.Linq;
 using Android.Graphics.Drawables;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;
+using Android.Widget;
 
 namespace Naxam.Effects.Platform.Droid
 {
@@ -11,7 +12,7 @@ namespace Naxam.Effects.Platform.Droid
 		Drawable defaultBackground;
 		protected override void OnAttached()
 		{
-			var control = Control as EntryEditText;
+			var control = Control as EditText;
 
 			if (control == null) return;
 
