@@ -19,7 +19,7 @@ namespace Naxam.Effects.Demo
                 items.Add("Item - 000" + i);
             }
 
-            lstItems.ItemsSource = items;
+            //lstItems.ItemsSource = items;
         }
     }
 }

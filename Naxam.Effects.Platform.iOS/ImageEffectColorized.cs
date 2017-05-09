@@ -27,7 +27,11 @@ namespace Naxam.Effects.Platform.iOS
 
 		protected override void OnDetached()
 		{
-			//TODO bring back image to original state
+            var imageView = Control as UIImageView;
+            if (imageView != null && imageView.Image != null)
+            {
+                imageView.Image = imageView.Image.ImageWithRenderingMode(UIImageRenderingMode.Automatic);
+            }
 		}
 
 		void UpdateColor()

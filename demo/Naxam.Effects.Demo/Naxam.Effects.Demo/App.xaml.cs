@@ -4,7 +4,10 @@ using System.Linq;
 using System.Text;
 
 using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
+using Xamarin.Forms.Xaml.Internals;
 
+[assembly:XamlCompilation(XamlCompilationOptions.Compile)]
 namespace Naxam.Effects.Demo
 {
     public partial class App : Application

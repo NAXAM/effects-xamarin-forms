@@ -134,7 +134,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Naxam.Effects.Demo\Naxam.Effects.Demo.csproj">
-      <Project>{0eaf2f75-b4b0-4b85-8759-62bd5eece203}</Project>
+      <Project>{C15081BF-0C93-49D3-947C-6B36D611517D}</Project>
       <Name>Naxam.Effects.Demo</Name>
     </ProjectReference>
   </ItemGroup>

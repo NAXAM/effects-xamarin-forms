@@ -39,6 +39,7 @@
     <Compile Include="ImageEffectColorized.cs" />
     <Compile Include="GestureEffectSwipe.cs" />
     <Compile Include="EntryEffect.cs" />
+    <Compile Include="ViewStyleEffect.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

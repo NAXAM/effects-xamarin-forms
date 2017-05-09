@@ -26,6 +26,8 @@
     <MtouchArch>i386, x86_64</MtouchArch>
     <MtouchLink>None</MtouchLink>
     <MtouchDebug>true</MtouchDebug>
+    <MtouchExtraArgs>--framework:/Applications/Reveal.app/Contents/SharedSupport/iOS-Libraries/RevealServer.framework
+</MtouchExtraArgs>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>none</DebugType>
@@ -139,8 +141,16 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Naxam.Effects.Demo\Naxam.Effects.Demo.csproj">
-      <Project>{0eaf2f75-b4b0-4b85-8759-62bd5eece203}</Project>
+      <Project>{C15081BF-0C93-49D3-947C-6B36D611517D}</Project>
       <Name>Naxam.Effects.Demo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Naxam.Effects\Naxam.Effects.csproj">
+      <Project>{91C6EF7A-52AE-4461-B3C8-513BCDBC7DBC}</Project>
+      <Name>Naxam.Effects</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Naxam.Effects.Platform.iOS\Naxam.Effects.Platform.iOS.csproj">
+      <Project>{4B2DA32F-FD25-456D-92C3-98F3B8002D59}</Project>
+      <Name>Naxam.Effects.Platform.iOS</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

@@ -1,10 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:Naxam.Effects.Demo"
-             xmlns:effects="clr-namespace:Naxam.Effects;assembly=Naxam.Effects"
-             x:Class="Naxam.Effects.Demo.MainPage">
-    <ListView 
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:Naxam.Effects.Demo" xmlns:effects="clr-namespace:Naxam.Effects;assembly=Naxam.Effects" x:Class="Naxam.Effects.Demo.MainPage">
+	<!--    <ListView 
         x:Name="lstItems"
         effects:ListViewEffect.AllowsSelection="false"
         >
@@ -13,5 +9,11 @@
                 <TextCell Text="{Binding .}"/>
             </DataTemplate>
         </ListView.ItemTemplate>
-    </ListView>
+    </ListView>-->
+	<StackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="40">
+		<BoxView HeightRequest="100" WidthRequest="100" Color="Yellow" effects:ViewEffect.BorderWidth="4" effects:ViewEffect.BorderColor="Red" effects:ViewEffect.CornerRadius="10" effects:ViewEffect.ShadowColor="Green" effects:ViewEffect.ShadowOpacity="1" effects:ViewEffect.ShadowRadius="4" effects:ViewEffect.ShadowOffsetX="3"
+			effects:ViewEffect.ShadowOffsetY="5" />
+		<ContentView HeightRequest="100" WidthRequest="100" BackgroundColor="Yellow" effects:ViewEffect.BorderWidth="4" effects:ViewEffect.BorderColor="Red" effects:ViewEffect.CornerRadius="10" effects:ViewEffect.ShadowColor="Green" effects:ViewEffect.ShadowOpacity="1" effects:ViewEffect.ShadowRadius="4" effects:ViewEffect.ShadowOffsetX="3"
+			effects:ViewEffect.ShadowOffsetY="5" />
+	</StackLayout>
 </ContentPage>
