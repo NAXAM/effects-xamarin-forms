@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,6 +21,19 @@ namespace Naxam.Effects.Demo
             }
 
             //lstItems.ItemsSource = items;
+            _SnapshotBtn.Command = new Command((obj) =>
+            {
+                var func = SnapshotEffect.GetTakeSnapshotFunc(_CV);
+                if (func != null)
+                {
+                    var output = func.Invoke();
+                    var img = new Image();
+                    img.Source = ImageSource.FromStream( () => 
+                                                        output
+                     );
+                    _SnapshotHolder.Content = img;
+                }
+            });
         }
     }
 }

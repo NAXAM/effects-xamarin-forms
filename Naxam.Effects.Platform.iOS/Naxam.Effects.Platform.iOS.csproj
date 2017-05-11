@@ -101,6 +101,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
+    <Folder Include="Helpers\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ListViewEffectNoSelection.cs" />
@@ -109,6 +110,8 @@
     <Compile Include="EntryEffectNoBorder.cs" />
     <Compile Include="GestureEffectSwipe.cs" />
     <Compile Include="ViewEffect.cs" />
+    <Compile Include="TakeSnapshotEffect.cs" />
+    <Compile Include="Helpers\UIViewExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Naxam.Effects\Naxam.Effects.csproj">

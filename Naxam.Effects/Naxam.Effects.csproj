@@ -61,6 +61,7 @@
     <Compile Include="GestureEffectSwipe.cs" />
     <Compile Include="EntryEffect.cs" />
     <Compile Include="ViewStyleEffect.cs" />
+    <Compile Include="SnapshotEffect.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
