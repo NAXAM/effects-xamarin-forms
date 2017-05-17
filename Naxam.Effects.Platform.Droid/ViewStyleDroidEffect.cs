@@ -34,7 +34,7 @@ namespace Naxam.Effects.Platform.Droid
                 gradient.SetCornerRadius(Forms.Context.ToPixels((double)Element.GetValue(ViewEffect.CornerRadiusProperty)));
                 gradient.SetColor(Color.Transparent.ToAndroid());
                 gradient.SetOrientation(GradientDrawable.Orientation.LeftRight);
-                gradient.SetShape(ShapeType.Oval);
+                gradient.SetShape(ShapeType.Rectangle);
 
                 if (Build.VERSION.SdkInt >= BuildVersionCodes.Lollipop)
                 {
