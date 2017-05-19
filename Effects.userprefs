@@ -1,21 +1,10 @@
 ﻿<Properties StartupConfiguration="{99B1CDBD-3B14-40A7-ADDF-261E1EF0DF4D}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="demo/Naxam.Effects.Demo/Naxam.Effects.Demo/MainPage.xaml.cs">
-    <Files>
-      <File FileName="demo/Naxam.Effects.Demo/Naxam.Effects.Demo/MainPage.xaml" Line="21" Column="39" />
-      <File FileName="demo/Naxam.Effects.Demo/Naxam.Effects.Demo/MainPage.xaml.cs" Line="36" Column="16" />
-      <File FileName="Naxam.Effects.Platform.Droid/GestureEffectSwipe.cs" Line="50" Column="12" />
-      <File FileName="Naxam.Effects/SnapshotEffect.cs" Line="41" Column="71" />
-      <File FileName="Naxam.Effects.Platform.iOS/TakeSnapshotEffect.cs" Line="33" Column="25" />
-      <File FileName="Naxam.Effects.Platform.iOS/Helpers/UIViewExtensions.cs" Line="68" Column="68" />
-      <File FileName="demo/Naxam.Effects.Demo/Naxam.Effects.Demo.iOS/Info.plist" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.demo.Naxam.Effects.Demo.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6891D1EA-CF1C-4AE8-A15B-9780CA872BCD" />
+  <MonoDevelop.Ide.ItemProperties.demo.Naxam.Effects.Demo.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.C8FB8B0C-B324-4DA7-803C-84EE666F5879" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.effects.Naxam.Effects.Platform.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
 </Properties>

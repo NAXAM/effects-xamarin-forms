@@ -3,7 +3,7 @@
     <metadata>
         <!-- Required elements-->
         <id>Naxam.Effects</id>
-       <version>1.0.5</version>
+       <version>1.0.6</version>
         <description>Xamarin Forms - Effects</description>
         <authors>NAXAM CO.,LTD</authors>
         <owners>NAXAM CO.,LTD</owners>
@@ -15,7 +15,7 @@
         <licenseUrl>https://opensource.org/licenses/Apache-2.0</licenseUrl>
         <tags>Xamarin.Forms, Xamarin.Android, Xamarin.iOS, Effects</tags>
         <dependencies>
-            <dependency id="Xamarin.Forms" version="2.3.3.180" />
+            <dependency id="Xamarin.Forms" version="2.3.4.231" />
         </dependencies>
     </metadata>
     <!-- Optional 'files' node -->
@@ -35,11 +35,11 @@
         <file src="Naxam.Effects/bin/Release/Naxam.Effects.xml" target="lib/Xamarin.iOS10/Naxam.Effects.xml" />
         <file src="Naxam.Effects.Platform.iOS/bin/Release/Naxam.Effects.Platform.iOS.dll" target="lib/Xamarin.iOS10/Naxam.Effects.Platform.iOS.dll" />
         <file src="Naxam.Effects.Platform.iOS/bin/Release/Naxam.Effects.Platform.iOS.xml" target="lib/Xamarin.iOS10/Naxam.Effects.Platform.iOS.xml" />
-        
-        <!--UWP-->
+   
+        <!--UWP--><!--     
         <file src="Naxam.Effects/bin/Release/Naxam.Effects.dll" target="lib/UAP10/Naxam.Effects.dll" />
         <file src="Naxam.Effects/bin/Release/Naxam.Effects.xml" target="lib/UAP10/Naxam.Effects.xml" />
         <file src="Naxam.Effects.Platform.Uwp/bin/Release/Naxam.Effects.Platform.Uwp.dll" target="lib/UAP10/Naxam.Effects.Platform.Uwp.dll" />
-        <file src="Naxam.Effects.Platform.Uwp/bin/Release/Naxam.Effects.Platform.Uwp.xml" target="lib/UAP10/Naxam.Effects.Platform.Uwp.xml" />
+        <file src="Naxam.Effects.Platform.Uwp/bin/Release/Naxam.Effects.Platform.Uwp.xml" target="lib/UAP10/Naxam.Effects.Platform.Uwp.xml" />-->
     </files>
 </package>
