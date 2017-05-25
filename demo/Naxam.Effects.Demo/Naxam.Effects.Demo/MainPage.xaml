@@ -10,14 +10,43 @@
             </DataTemplate>
         </ListView.ItemTemplate>
     </ListView>-->
-	<StackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="40">
-		<BoxView HeightRequest="100" WidthRequest="100" Color="Yellow" effects:ViewEffect.BorderWidth="4" effects:ViewEffect.BorderColor="Red" effects:ViewEffect.CornerRadius="10" effects:ViewEffect.ShadowColor="Green" effects:ViewEffect.ShadowOpacity="1" effects:ViewEffect.ShadowRadius="4" effects:ViewEffect.ShadowOffsetX="3"
+	<StackLayout 
+        VerticalOptions="Center" 
+        HorizontalOptions="Center" 
+        Spacing="40">
+		<BoxView 
+            HeightRequest="100" 
+            WidthRequest="100" 
+            Color="Yellow" 
+            effects:ViewEffect.BorderWidth="4" 
+            effects:ViewEffect.BorderColor="Red" 
+            effects:ViewEffect.CornerRadius="10" 
+            effects:ViewEffect.ShadowColor="Green" 
+            effects:ViewEffect.ShadowOpacity="1" 
+            effects:ViewEffect.ShadowRadius="4" 
+            effects:ViewEffect.ShadowOffsetX="3"
 			effects:ViewEffect.ShadowOffsetY="5" />
-		<ContentView HeightRequest="100" WidthRequest="100" BackgroundColor="Yellow" effects:ViewEffect.BorderWidth="4" effects:ViewEffect.BorderColor="Red" effects:ViewEffect.CornerRadius="10" effects:ViewEffect.ShadowColor="Green" effects:ViewEffect.ShadowOpacity="1" effects:ViewEffect.ShadowRadius="4" effects:ViewEffect.ShadowOffsetX="3"
-			effects:ViewEffect.ShadowOffsetY="5" x:Name="_CV" 
+		<ContentView 
+            HeightRequest="100"
+            WidthRequest="100" 
+            BackgroundColor="Yellow" 
+            effects:ViewEffect.BorderWidth="4" 
+            effects:ViewEffect.BorderColor="Red" 
+            effects:ViewEffect.CornerRadius="10" 
+            effects:ViewEffect.ShadowColor="Green" 
+            effects:ViewEffect.ShadowOpacity="1" 
+            effects:ViewEffect.ShadowRadius="4" 
+            effects:ViewEffect.ShadowOffsetX="3"
+			effects:ViewEffect.ShadowOffsetY="5" 
+            x:Name="_CV" 
             effects:SnapshotEffect.CanTakeSnapshot="true"
 		/>
 		<Button Text="Take content view snapshot" x:Name="_SnapshotBtn"/>
-		<ContentView x:Name="_SnapshotHolder" HeightRequest="100" WidthRequest="100"/>
+		<ContentView 
+            x:Name="_SnapshotHolder" 
+            HeightRequest="100" 
+            WidthRequest="100"
+            effects:ViewEffect.CornerRadius="50"
+            BackgroundColor="Aqua"/>
 	</StackLayout>
 </ContentPage>
