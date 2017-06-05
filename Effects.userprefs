@@ -1,21 +1,12 @@
 ﻿<Properties StartupConfiguration="{91970960-0E03-43EF-AF2C-B524BAEC921A}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Naxam.Effects.Platform.iOS/Properties/AssemblyInfo.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Naxam.Effects.Platform.iOS/ViewEffect.cs">
     <Files>
-      <File FileName="demo/Naxam.Effects.Demo/Naxam.Effects.Demo/MainPage.xaml" Line="51" Column="16" />
+      <File FileName="demo/Naxam.Effects.Demo/Naxam.Effects.Demo/MainPage.xaml" Line="52" Column="15" />
       <File FileName="Naxam.Effects/Properties/AssemblyInfo.cs" Line="20" Column="1" />
       <File FileName="Naxam.Effects.Platform.Droid/Properties/AssemblyInfo.cs" Line="22" Column="39" />
       <File FileName="Naxam.Effects.Platform.iOS/Properties/AssemblyInfo.cs" Line="22" Column="39" />
+      <File FileName="Naxam.Effects.Platform.iOS/ViewEffect.cs" Line="1" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="Effects" expanded="True">
-            <Node name="demo" expanded="True" />
-            <Node name="effects" expanded="True" />
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
@@ -23,6 +14,6 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.demo.Naxam.Effects.Demo.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.demo.Naxam.Effects.Demo.Android PreferredExecutionTarget="Android.00656e0129900b16" />
+  <MonoDevelop.Ide.ItemProperties.demo.Naxam.Effects.Demo.Android PreferredExecutionTarget="Android.Android_Accelerated_x86" />
   <MultiItemStartupConfigurations />
 </Properties>

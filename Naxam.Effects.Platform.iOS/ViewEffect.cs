@@ -33,8 +33,7 @@ namespace Naxam.Effects.Platform.iOS
             if (_BorderLayer == null)
             {
                 _BorderLayer = new CALayer();
-                view.Layer.AddSublayer(_BorderLayer);
-
+                view.Layer.InsertSublayer(_BorderLayer,0);
             }
             _BorderLayer.Frame = new CGRect(CGPoint.Empty, view.Layer.Frame.Size);
             _BorderLayer.BorderWidth = (nfloat)ViewEffect.GetBorderWidth(Element);
