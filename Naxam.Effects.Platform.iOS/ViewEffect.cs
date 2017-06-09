@@ -48,6 +48,11 @@ namespace Naxam.Effects.Platform.iOS
             view.Layer.ShadowOffset = new CGSize((nfloat) ViewEffect.GetShadowOffsetX(Element),
                                                  (nfloat) ViewEffect.GetShadowOffsetY(Element));
             view.Layer.MasksToBounds = false;
+
+            //Remove default border
+            view.Layer.BorderWidth = 0;
+            view.Layer.BorderColor = UIColor.Clear.CGColor;
+
             view.ClipsToBounds = false;
         }
 
