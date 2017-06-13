@@ -62,6 +62,7 @@
     <Compile Include="EntryEffect.cs" />
     <Compile Include="ViewStyleEffect.cs" />
     <Compile Include="SnapshotEffect.cs" />
+    <Compile Include="RoundedViewEffect.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

@@ -32,4 +32,5 @@ using Naxam.Effects.Platform.iOS;
 [assembly: ExportEffect(typeof(GestureEffectSwipe), "GestureEffectSwipe")]
 [assembly: ExportEffect(typeof(EntryEffectNoBorder), "EntryEffectNoBorder")]
 [assembly: ExportEffect(typeof(ViewStyleEffect), "ViewStyleEffect")]
+[assembly: ExportEffect(typeof(RoundedViewEffect), "RoundedViewEffect")]
 [assembly: ExportEffect(typeof(TakeSnapshotEffect), "TakeSnapshotEffect")]

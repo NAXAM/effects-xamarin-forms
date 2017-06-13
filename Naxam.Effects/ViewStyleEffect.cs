@@ -179,5 +179,6 @@ namespace Naxam.Effects
                 view.Effects.Add(new ViewStyleEffect());
             }
         }
+
     }
 }

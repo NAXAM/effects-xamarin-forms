@@ -48,5 +48,10 @@
             WidthRequest="100"
             effects:ViewEffect.CornerRadius="50"
             BackgroundColor="Aqua"/>
+        <BoxView Color="Navy">
+            <BoxView.Effects>
+                <effects:RoundedViewEffect/>
+            </BoxView.Effects>
+        </BoxView>
 	</StackLayout>
 </ContentPage>

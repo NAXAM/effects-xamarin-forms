@@ -1,18 +1,21 @@
-﻿<Properties StartupConfiguration="{91970960-0E03-43EF-AF2C-B524BAEC921A}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Naxam.Effects.Platform.iOS/ViewEffect.cs">
+﻿<Properties StartupConfiguration="{99B1CDBD-3B14-40A7-ADDF-261E1EF0DF4D}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Naxam.Effects.Platform.iOS/RoundedViewEffect.cs">
     <Files>
-      <File FileName="demo/Naxam.Effects.Demo/Naxam.Effects.Demo/MainPage.xaml" Line="52" Column="15" />
+      <File FileName="demo/Naxam.Effects.Demo/Naxam.Effects.Demo/MainPage.xaml" Line="57" Column="15" />
       <File FileName="Naxam.Effects/Properties/AssemblyInfo.cs" Line="20" Column="1" />
       <File FileName="Naxam.Effects.Platform.Droid/Properties/AssemblyInfo.cs" Line="22" Column="39" />
-      <File FileName="Naxam.Effects.Platform.iOS/Properties/AssemblyInfo.cs" Line="22" Column="39" />
-      <File FileName="Naxam.Effects.Platform.iOS/ViewEffect.cs" Line="1" Column="1" />
+      <File FileName="Naxam.Effects.Platform.iOS/Properties/AssemblyInfo.cs" Line="23" Column="1" />
+      <File FileName="Naxam.Effects/RoundedViewEffect.cs" Line="16" Column="1" />
+      <File FileName="Naxam.Effects.Platform.iOS/RoundedViewEffect.cs" Line="36" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/hado/Projects/__NAXAM/XFEffects/Naxam.Effects.Platform.iOS/RoundedViewEffect.cs" relfile="Naxam.Effects.Platform.iOS/RoundedViewEffect.cs" line="36" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.demo.Naxam.Effects.Demo.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
+  <MonoDevelop.Ide.ItemProperties.demo.Naxam.Effects.Demo.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6891D1EA-CF1C-4AE8-A15B-9780CA872BCD" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.demo.Naxam.Effects.Demo.Android PreferredExecutionTarget="Android.Android_Accelerated_x86" />
   <MultiItemStartupConfigurations />

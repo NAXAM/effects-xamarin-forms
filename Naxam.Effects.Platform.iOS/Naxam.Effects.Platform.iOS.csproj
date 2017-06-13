@@ -112,6 +112,7 @@
     <Compile Include="ViewEffect.cs" />
     <Compile Include="TakeSnapshotEffect.cs" />
     <Compile Include="Helpers\UIViewExtensions.cs" />
+    <Compile Include="RoundedViewEffect.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Naxam.Effects\Naxam.Effects.csproj">
