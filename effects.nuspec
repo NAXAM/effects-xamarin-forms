@@ -3,7 +3,7 @@
     <metadata>
         <!-- Required elements-->
         <id>Naxam.Effects</id>
-       <version>1.0.6.2</version>
+       <version>1.0.6.3</version>
         <description>Xamarin Forms - Effects</description>
         <authors>NAXAM CO.,LTD</authors>
         <owners>NAXAM CO.,LTD</owners>
@@ -11,7 +11,7 @@
 
         <!-- Optional elements -->
         <title>Naxam - Xamarin.Forms Effects</title>
-        <releaseNotes>Fix ViewStyleEffect on Android</releaseNotes>
+        <releaseNotes>Add RoundedViewEffect to iOS</releaseNotes>
         <copyright>Copyright (c) 2017 NAXAM</copyright>
         <licenseUrl>https://opensource.org/licenses/Apache-2.0</licenseUrl>
         <tags>Xamarin.Forms, Xamarin.Android, Xamarin.iOS, Effects</tags>

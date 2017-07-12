@@ -15,9 +15,9 @@ namespace Naxam.Effects.Platform.iOS
 			try
 			{
                 var view = Control ?? Container;
-                view.Layer.MasksToBounds = true;
                 _OldCornerRadius = view.Layer.CornerRadius;
                 _OldMaskToBounds = view.Layer.MasksToBounds;
+                view.Layer.MasksToBounds = true;
                 fObserver = view.Layer.AddObserver("bounds", Foundation.NSKeyValueObservingOptions.Initial | Foundation.NSKeyValueObservingOptions.OldNew, (obj) =>
 				{
 					UpdateCornerRadius();

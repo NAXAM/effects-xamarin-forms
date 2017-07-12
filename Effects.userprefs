@@ -6,14 +6,12 @@
       <File FileName="Naxam.Effects.Platform.Droid/Properties/AssemblyInfo.cs" Line="22" Column="39" />
       <File FileName="Naxam.Effects.Platform.iOS/Properties/AssemblyInfo.cs" Line="23" Column="1" />
       <File FileName="Naxam.Effects/RoundedViewEffect.cs" Line="16" Column="1" />
-      <File FileName="Naxam.Effects.Platform.iOS/RoundedViewEffect.cs" Line="36" Column="1" />
+      <File FileName="Naxam.Effects.Platform.iOS/RoundedViewEffect.cs" Line="21" Column="57" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/hado/Projects/__NAXAM/XFEffects/Naxam.Effects.Platform.iOS/RoundedViewEffect.cs" relfile="Naxam.Effects.Platform.iOS/RoundedViewEffect.cs" line="36" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.demo.Naxam.Effects.Demo.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6891D1EA-CF1C-4AE8-A15B-9780CA872BCD" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
