@@ -48,10 +48,25 @@
             WidthRequest="100"
             effects:ViewEffect.CornerRadius="50"
             BackgroundColor="Aqua"/>
-        <BoxView Color="Navy">
-            <BoxView.Effects>
-                <effects:RoundedViewEffect/>
-            </BoxView.Effects>
-        </BoxView>
+        <Grid Padding="16"
+            BackgroundColor="Yellow" 
+            WidthRequest="100" 
+            HeightRequest="100" 
+            effects:ViewEffect.BorderWidth="4" 
+            effects:ViewEffect.BorderColor="Red" 
+            effects:ViewEffect.CornerRadius="10" 
+            effects:ViewEffect.ShadowColor="Green" 
+            effects:ViewEffect.ShadowOpacity="1" 
+            effects:ViewEffect.ShadowRadius="4" 
+            effects:ViewEffect.ShadowOffsetX="3"
+            effects:ViewEffect.ShadowOffsetY="5" 
+            >
+             <BoxView Color="Navy">
+                <BoxView.Effects>
+                    <effects:RoundedViewEffect/>
+                </BoxView.Effects>
+            </BoxView>
+        </Grid>
+       
 	</StackLayout>
 </ContentPage>

@@ -98,6 +98,9 @@
       <HintPath>..\packages\Xamarin.Forms.2.3.4.231\lib\Xamarin.iOS10\Xamarin.Forms.Xaml.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Naxam.KVOController.iOS">
+      <HintPath>..\packages\Naxam.KVOController.iOS.1.2.0\lib\Xamarin.iOS10\Naxam.KVOController.iOS.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />

@@ -60,13 +60,84 @@ namespace Naxam.Effects
 
         public static double GetCornerRadius(BindableObject element)
         {
-
             return (double)element.GetValue(CornerRadiusProperty);
         }
 
         public static void SetCornerRadius(BindableObject element, double value)
         {
             element.SetValue(CornerRadiusProperty, value);
+        }
+
+        public static readonly BindableProperty TopLeftCornerRadiusProperty = BindableProperty.CreateAttached(
+                    "TopLeftCornerRadius",
+                    typeof(double),
+            typeof(ViewEffect),
+                    default(double),
+            BindingMode.TwoWay, propertyChanged: AttachEffect);
+
+        public static double GetTopLeftCornerRadius(BindableObject element)
+        {
+
+            return (double)element.GetValue(TopLeftCornerRadiusProperty);
+        }
+
+        public static void SetTopLeftCornerRadius(BindableObject element, double value)
+        {
+            element.SetValue(TopLeftCornerRadiusProperty, value);
+        }
+
+        public static readonly BindableProperty TopRightCornerRadiusProperty = BindableProperty.CreateAttached(
+                    "TopRightCornerRadius",
+                    typeof(double),
+            typeof(ViewEffect),
+                    default(double),
+            BindingMode.TwoWay, propertyChanged: AttachEffect);
+
+        public static double GetTopRightCornerRadius(BindableObject element)
+        {
+
+            return (double)element.GetValue(TopRightCornerRadiusProperty);
+        }
+
+        public static void SetTopRightCornerRadius(BindableObject element, double value)
+        {
+            element.SetValue(TopRightCornerRadiusProperty, value);
+        }
+
+        public static readonly BindableProperty BottomLeftCornerRadiusProperty = BindableProperty.CreateAttached(
+            "BottomLeftCornerRadius",
+                    typeof(double),
+            typeof(ViewEffect),
+                    default(double),
+            BindingMode.TwoWay, propertyChanged: AttachEffect);
+
+        public static double GetBottomLeftCornerRadius(BindableObject element)
+        {
+
+            return (double)element.GetValue(BottomLeftCornerRadiusProperty);
+        }
+
+        public static void SetBottomLeftCornerRadius(BindableObject element, double value)
+        {
+            element.SetValue(BottomLeftCornerRadiusProperty, value);
+        }
+
+        public static readonly BindableProperty BottomRightCornerRadiusProperty = BindableProperty.CreateAttached(
+            "BottomRightCornerRadius",
+                    typeof(double),
+            typeof(ViewEffect),
+                    default(double),
+            BindingMode.TwoWay, propertyChanged: AttachEffect);
+
+        public static double GetBottomRightCornerRadius(BindableObject element)
+        {
+
+            return (double)element.GetValue(BottomRightCornerRadiusProperty);
+        }
+
+        public static void SetBottomRightCornerRadius(BindableObject element, double value)
+        {
+            element.SetValue(BottomRightCornerRadiusProperty, value);
         }
 
         public static readonly BindableProperty ShadowRadiusProperty = BindableProperty.CreateAttached(
@@ -91,7 +162,7 @@ namespace Naxam.Effects
                     "ShadowColor",
             typeof(Color),
             typeof(ViewEffect),
-            Color.Black,
+            Color.Gray,
             BindingMode.TwoWay, propertyChanged: AttachEffect);
 
         public static Color GetShadowColor(BindableObject element)
